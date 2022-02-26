@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript, beer" />
+    <meta name="author" content="Zsak Krisztian" />
+    <meta name="description" content="sor hazifeladat" />
+    <link rel="stylesheet" href="style.css">
+    <title>Zsák Krisztián</title>
+</head>
+<body>
+    <main>
+        <header>HA KELL EGY JÓ SÖR...
+            <img src="design/beer-new_401732638.jpg" alt="">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Sörök fajtái</a></li>
+                <li><a href="tablazat.html">Táblázat</a></li>
+                <li><a href="urlap.html">Hírlevél</a></li>
+            </ul>
+        </nav>
+        
+        <article>
+            <form>
+                <fieldset id="nevek">
+                    <legend>Hírlevél feliratkozás</legend>
+                    <table>
+                        <tr>
+                            <td><label for="vnev">Vezetéknév:</label></td>
+                            <td><input type="text" id="vnev" name="vnev" placeholder="Vezetéknév"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="knev">Keresztnév:</label></td>
+                            <td><input type="text" id="knev" name="knev" placeholder="Keresztnév"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="mailadd">E-mail cím:</label></td>
+                            <td><input type="email" id="email" name="email" placeholder="E-mail cím"></td>
+                        </tr>
+                    </table>                    
+                </fieldset>
+    
+                    
+    
+    
+                <fieldset>
+                    <legend>Szereti a sört?</legend>
+                    <input type="radio" id="igen" name="fav_language" value="Igen">
+                    <label for="Igen">Igen</label><br>
+                    <input type="radio" id="nem" name="fav_language" value="Nem">
+                    <label for="Nem">Nem</label><br>
+                </fieldset>
+    
+    
+                <fieldset>
+                    <legend>Melyik a kedvenc márkája?</legend>
+                    <input type="checkbox" id="Soproni" name="Soproni" value="Soproni">
+                    <label for="Soproni">Soproni</label><br>
+                    <input type="checkbox" id="Heineken" name="Heineken" value="Heineken">
+                    <label for="Heineken">Heineken</label><br>
+                    <input type="checkbox" id="Egyéb" name="Egyéb" value="Egyéb">
+                    <label for="Egyéb">Egyéb</label><br>
+                </fieldset>
+                <fieldset>
+                    <input type="text" name="szöveg" id="szöveg">
+                </fieldset>
+
+                    <input type="button" value="Elküldés">
+                  </form>
+        </article>
+
+        <footer>
+            &copy; Minden jog fenntartva
+        </footer>
+    </main>
+</body>
+</html>
